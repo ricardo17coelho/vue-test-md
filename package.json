@@ -1,0 +1,29 @@
+{
+  "name": "frontmatter-markdown-loader-vue-sample",
+  "version": "3.6.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.4.1",
+    "@vue/cli-service": "4.4.1",
+    "frontmatter-markdown-loader": "3.6.0",
+    "github-markdown-css": "4.0.0",
+    "vue-template-compiler": "2.6.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
